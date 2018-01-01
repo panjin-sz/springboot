@@ -6,3 +6,5 @@ eureka:
     register-with-eureka: false
     # 是否到eureka服务器抓取注册信息
     fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8765/eureka
